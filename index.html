@@ -9,8 +9,7 @@
   <h1>Control de LED</h1>
   <button onclick="encender()">Encender</button>
   <button onclick="apagar()">Apagar</button>
-<button onclick="activarCamara()">Activar Cámara</button>
-<button onclick="desactivarCamara()">Desactivar Cámara</button>
+
 
   <script>
   // Configuración de Firebase
@@ -49,6 +48,8 @@ function desactivarCamara() {
   }
 </script>
 </body>
+<button onclick="activarCamara()">Activar Cámara</button>
+<button onclick="desactivarCamara()">Desactivar Cámara</button>
 </html>
       db.ref('estado').set(0); // Usa 0 para apagar
     }
